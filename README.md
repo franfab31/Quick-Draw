@@ -16,3 +16,4 @@ This helps identify patterns in the types of errors made by the model, such as c
 
 Moreover, a confusion matrix is generated to provide a comprehensive overview of the model’s performance across all 30 classes. The confusion matrix highlights which classes are often confused with each other, offering insights into potential areas for improvement. This analysis provides a deeper understanding of the model's behavior and helps to identify areas where further tuning or augmentation may improve performance
 
+colab link: https://colab.research.google.com/drive/1K3uySK59roQNokGht7QIwH6y3RDMzO5Q?usp=sharing
