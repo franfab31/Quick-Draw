@@ -31,6 +31,10 @@ Test-set results of the 7 trials:
 | 6 | **69.4%** | **0.694** |
 | 7 | 62.2% | 0.614 |
 
+Training and validation curves of trial 6 (learning rate 0.01, batch size 1000), the trial with the best test accuracy:
+
+![Best trial curves](assets/best_trial_curves.png)
+
 Accuracy plateaus around 69%. A likely reason is that only the classifier head is trained, and ImageNet features are not a good fit for black-and-white line drawings. Fine-tuning the whole backbone would be the natural next step.
 
 ## Visualisation and error analysis
